@@ -50,6 +50,10 @@ The model was evaluated using:
 - ROC-AUC
 - Confusion Matrix
 
+### ⚠️ Model Limitation
+
+Although the model achieved 90.31% accuracy, the recall was relatively low at 5.46%. This indicates that the model identified only a small proportion of the actual churn cases in the evaluation dataset. Therefore, accuracy alone should not be used to assess churn prediction performance, and further improvements such as class-imbalance handling, threshold optimization, or alternative modeling approaches could be explored.
+
 ## 📈 Model Results
 
 | Metric | Score |
