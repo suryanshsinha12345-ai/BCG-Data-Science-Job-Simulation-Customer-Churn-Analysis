@@ -1,7 +1,7 @@
 # BCG-Data-Science-Job-Simulation-Customer-Churn-Analysis
 BCG job simulation project focused on customer churn analysis, feature engineering, and Random Forest modeling with classification model evaluation.
 
-## 📌 Overview
+## Overview
 
 This project was completed as part of the **BCG Data Science Job Simulation** on Forage.
 
@@ -11,11 +11,11 @@ The workflow followed:
 
 **Clean Dataset → EDA / Data Understanding → Feature Engineering → Modeling & Evaluation**
 
-## 🎯 Project Objective
+##  Project Objective
 
 The objective was to understand customer churn patterns, prepare relevant features, and develop a machine learning model to identify customers at risk of churning.
 
-## 📊 Project Workflow
+## Project Workflow
 
 ### 1. Data Understanding & EDA
 
@@ -50,11 +50,11 @@ The model was evaluated using:
 - ROC-AUC
 - Confusion Matrix
 
-### ⚠️ Model Limitation
+###  Model Limitation
 
 Although the model achieved 90.31% accuracy, the recall was relatively low at 5.46%. This indicates that the model identified only a small proportion of the actual churn cases in the evaluation dataset. Therefore, accuracy alone should not be used to assess churn prediction performance, and further improvements such as class-imbalance handling, threshold optimization, or alternative modeling approaches could be explored.
 
-## 📈 Model Results
+##  Model Results
 
 | Metric | Score |
 |---|---:|
